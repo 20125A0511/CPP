@@ -18,8 +18,6 @@ for(i=0;i<n;i++)
 sum=sum-a[i];
 for(q=0;q<n;q++)
 {
-
-
 a[i]=b[q];
 }
 if(sum==0){
