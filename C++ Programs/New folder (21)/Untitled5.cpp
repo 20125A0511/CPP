@@ -16,9 +16,10 @@ for(i=0;i<n;i++)
 if(a[i]==a[i+1])
 {
 b[i]=a[i]*2;
+b[i+1]=0;
 }
 else{
-    a[i]=a[i+1];
+    a[i]++;
 }
 }
 for(i=0;i<n;i++)
