@@ -22,5 +22,5 @@ cout<<"Enter String:";
 string str;
 cin>>str;
 // Function call
-isAnBn(str) ? cout << "Yes" : cout << "No";
+isAnBn(str) ? cout << "1" : cout << "0";
 }
