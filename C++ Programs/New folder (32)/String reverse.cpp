@@ -4,8 +4,9 @@
 using namespace std;
 int main()
 {
-	string str = "geeks for geeks";
 
+	string str;
+cin>>str;
 	// Reverse str[begin..end]
 	reverse(str.begin(), str.end());
 
