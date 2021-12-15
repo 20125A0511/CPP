@@ -25,5 +25,5 @@ cout<<" "<<arr[i][j]<<" ";
 }
 cout<<"\n";
 }
-return 0;
++return 0;
 }
