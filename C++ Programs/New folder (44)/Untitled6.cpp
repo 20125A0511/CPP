@@ -18,3 +18,19 @@ cout<<"Size of Long Int:"<<sizeof(long)<<endl;
 cout<<"Size of Short Int:"<<sizeof(short)<<endl;
 
 }
+/*
+Output:
+1
+2
+2
+Size of float: 4
+Size of int: 4
+Size of double: 8
+Size of char: 1
+Size of Boolean:1
+Size of Long Int:8
+Size of Short Int:2
+
+Process returned 0 (0x0)   execution time : 1.862 s
+Press any key to continue.
+*/
