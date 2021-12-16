@@ -18,8 +18,9 @@ cin>>house[i];
 }
 for(i=0;i<n;i++)
 {
-if(people[i]<=house[i]||house[i]>=people[i])
+if(house[i]>=people[i])
 {
+    people[i]--;
     cout<<"House Allocated for People at house \t"<<i<<endl;
 
 }
@@ -27,11 +28,12 @@ else if(people[i]<=house[i+1])
 {
     cout<<"HOuse Allocated for people at house \t"<<i<<endl;
     house[i+1]=0;
-
+people[i]--;
 }
 else
 {
-    cout<<"ALL HOuses Are Allocated to Home less people";
+    cout<<"NO Houses are Allocated";
 }
+
 }
 }
