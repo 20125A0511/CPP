@@ -1,5 +1,7 @@
-// You are given  integers. Sort the  integers and print the sorted order.Store the  integers in a vector. Vectors are sequence containers representing arrays that can change in size.
-
+/* You are given  integers. Sort the  integers and print the sorted order.
+Store the  integers in a vector.
+Vectors are sequence containers representing arrays that can change in size.
+*/
 //  Declaration:
 // vector<int>v; (creates an empty vector of integers)
 //  Size:
@@ -43,3 +45,15 @@ int main() {
     for(it=v.begin();it!=v.end();it++)
     cout<<(*it)<<" ";
 }
+/*
+Output:
+1 6 113 4 5
+after push_back operation
+1 6 113 4 5 5 6
+after pop_back operation
+1 6 113 4 5
+after sorting
+1 4 5 6 113
+Process returned 0 (0x0)   execution time : 1.030 s
+Press any key to continue.
+*/
