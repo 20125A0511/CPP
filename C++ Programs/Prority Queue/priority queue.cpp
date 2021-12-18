@@ -33,6 +33,7 @@ int main()
 	gquiz.pop();
 	showpq(gquiz);
 
+
 	return 0;
 }
 
